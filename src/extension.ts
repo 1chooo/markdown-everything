@@ -16,10 +16,19 @@ export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand('markdown-everything.helloWorld', () => {
 		// The code you place here will be executed every time your command is executed
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from Markdown Everything!');
+		vscode.window.showInformationMessage('Hello World from Markdown Everything! And it is made by @1chooo');
 	});
 
+	const command = 'markdown-everything.sayHello';
+
+	const commandHandler = (name: string = 'world') => {
+    console.log(`Hello ${name}!!!`);
+		vscode.window.showInformationMessage('Hello World from Markdown Everything! And it is made by @1chooo');
+  };
+
+
 	context.subscriptions.push(disposable);
+	context.subscriptions.push(vscode.commands.registerCommand(command, commandHandler));
 }
 
 // This method is called when your extension is deactivated

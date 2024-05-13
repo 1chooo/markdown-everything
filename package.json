@@ -1,7 +1,7 @@
 {
   "name": "markdown-everything",
   "displayName": "Markdown Everything",
-  "description": "",
+  "description": "Your life need to be markdowned.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
@@ -16,6 +16,10 @@
       {
         "command": "markdown-everything.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "markdown-everything.sayHello",
+        "title": "Hello World 2"
       }
     ]
   },
