@@ -9,10 +9,12 @@
     "documentation",
     "pdf"
   ],
+  "publisher": "1chooo",
+  "icon": "docs/logo.png",
   "version": "0.0.1",
   "license": "Apache",
   "repository": {
-    "url": "https://github.com/1chooo/markdown-everything.git"
+    "url": "https://github.com/1chooo/markdown-everything"
   },
   "bugs": {
     "url": "https://github.com/1chooo/markdown-everything/issues"

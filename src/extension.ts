@@ -28,7 +28,6 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInformationMessage('Hello World from Markdown Everything! And it is made by @1chooo');
 	};
 
-
 	context.subscriptions.push(disposable);
 	context.subscriptions.push(vscode.commands.registerCommand(command, commandHandler));
 
@@ -37,5 +36,4 @@ export function activate(context: vscode.ExtensionContext) {
 	};
 }
 
-// This method is called when your extension is deactivated
 export function deactivate() { }
