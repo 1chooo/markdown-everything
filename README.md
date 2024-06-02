@@ -1,10 +1,36 @@
-# Markdown Everything
+# ***Markdown Everything***
 
-Your life need to be markdowned.
+<img align="center" alt="Markdown Everything - Demo" src="./docs/demo.png">
+
+<h3 align="center">
+    <b><i>Your life need to be markdowned.</i></b>
+</h3>
+
+<p align="center">
+    <i>✍️ A Solution to enhance MARK everything DOWN in <a href="https://code.visualstudio.com/">VSCode</a>!</i>
+</p>
 
 ## Features
 
-Adds support for [^1] syntax to VS Code's built-in markdown preview
+Adds support for `[^1]` syntax to VS Code's built-in markdown preview [^1], [^bignote]
+
+(Source: [Markdown Guide -- Extended Syntax](https://www.markdownguide.org/extended-syntax/))
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+
+    ```python
+    def foo():
+        return 'bar'
+    ```
+
 
 ## CONTACT INFO.
 
