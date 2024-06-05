@@ -4,11 +4,13 @@ Your life need to be markdowned.
 
 ## Features
 
-Adds support for `[^1]` syntax to VS Code's built-in markdown preview [^1], [^bignote]
+Adds support for `[^1]` syntax to VS Code's built-in markdown preview [^1], [^bignote], [^2]
 
 (Source: [Markdown Guide -- Extended Syntax](https://www.markdownguide.org/extended-syntax/))
 
 [^1]: This is the first footnote.
+
+[^2]: [Hugo' Portfolio](https://1chooo.com)
 
 [^bignote]: Here's one with multiple paragraphs and code.
 
