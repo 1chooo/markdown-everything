@@ -50,7 +50,7 @@ To use the headers, you can use `#` to `######` for Header 1 to Header 6. And it
 
 <div align="right">
     <p>
-        <a href="#table-of-contents" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
     </p>
 </div>
 
