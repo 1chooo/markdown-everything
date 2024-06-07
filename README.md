@@ -1,6 +1,6 @@
 # ***Markdown Everything***
 
-<img align="center" alt="Markdown Everything - Demo" src="./docs/demo.png">
+<img align="center" alt="Markdown Everything - Demo" src="./docs/imgs/cover.png">
 
 <h3 align="center">
     <b><i>Your life need to be markdowned.</i></b>
@@ -12,31 +12,19 @@
 
 ## Features
 
-Adds support for `[^1]` syntax to VS Code's built-in markdown preview [^1], [^bignote], [^2]
+### Footnotes
 
-(Source: [Markdown Guide -- Extended Syntax](https://www.markdownguide.org/extended-syntax/))
+Adds support for `[^1]` syntax to VS Code's built-in markdown preview.
 
-[^1]: This is the first footnote.
+<img align="center" alt="Markdown Everything - Demo" src="./docs/demo.png">
 
-[^2]: [Hugo' Portfolio](https://1chooo.com)
+### Convert to PDF
 
-[^bignote]: Here's one with multiple paragraphs and code.
-
-    Indent paragraphs to include them in the footnote.
-
-    `{ my code }`
-
-    Add as many paragraphs as you like.
-
-    ```python
-    def foo():
-        return 'bar'
-    ```
+Incoming feature to convert markdown to PDF.
 
 
 ## CONTACT INFO.
 
-> AWS Educate Cloud Ambassador, Technical Support </br>
 > **Hugo ChunHo Lin**
 > 
 > <aside>
