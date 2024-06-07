@@ -1,8 +1,13 @@
-# How to Markdown       <!-- omit in toc -->
+# Your life need to be MARKDOWNED: How to Markdown       <!-- omit in toc -->
+
+Since I frequently use **Markdown** to write technical documents and also love recording my life with it, I am currently developing a [VSCode] extension - [Markdown Everything]. The aim is to enhance the preview of Markdown rendering and meet my customized needs.
 
 Before [MARKDOWN EVERYTHING], you need to know how to markdown. This document will help you to understand the basic markdown syntax.
 
 [MARKDOWN EVERYTHING]: https://marketplace.visualstudio.com/items?itemName=1chooo.markdown-everything
+[MARKDOWN EVERYTHING]: https://marketplace.visualstudio.com/items?itemName=1chooo.markdown-everything
+
+![](./imgs/cover.png)
 
 ## Table of Contents       <!-- omit in toc -->
 - [Headers](#headers)
@@ -77,6 +82,12 @@ To make the words vividly, you can add the emphasis adaptively.
 - <sup>This text will be superscript</sup>
 - <sub>This text will be subscript</sub>
 ```
+
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
 
 ## Lists
 
@@ -153,6 +164,12 @@ There are two types of lists, unordered and ordered. You can use `*` for unorder
 > To insert a line break within a text field, you can use the keyboard shortcut `Shift + Enter`. This allows you to start a new line without ending the current paragraph.
 
 
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
+
 ## Links
 
 We can add links in markdown with the hyerlink.
@@ -169,6 +186,12 @@ We can add links in markdown with the hyerlink.
 Sample: [alt text](url)
 ```
 
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
+
 ## Images
 
 We can embed images in markdown with the file path or URL.
@@ -183,6 +206,11 @@ We can embed images in markdown with the file path or URL.
 Sample: ![alt text](url)
 ```
 
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
 
 ## Code
 
@@ -229,6 +257,11 @@ def foo() -> str:
 ```
 </code></pre>
 
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
 
 ## Quotes
 
@@ -262,6 +295,11 @@ We can use the `>` to create the quotes in markdown.
 > ```
 ```
 
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
 
 ## Alert
 
@@ -301,6 +339,12 @@ In GitHub, it supports the render of alerts. You can use the following syntax to
 > Advises about risks or negative outcomes of certain actions.
 ```
 
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
+
 ## Tables
 
 You can create the tables to represent the data in markdown.
@@ -318,6 +362,12 @@ You can create the tables to represent the data in markdown.
 | Cell 1   | Cell 2   | Cell 3   |
 | Cell 4   | Cell 5   | Cell 6   |
 ```
+
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
 
 ## Ignore Markdown
 
@@ -338,6 +388,12 @@ Let's \*\*rename\*\* the variable \`var\` in with \`var2\` in the \`main.py\`
 > [!TIP]
 >
 > Sometimes, I will use `HTML` to ignore the markdown syntax.
+
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
 
 ## Footnotes
 
@@ -396,6 +452,12 @@ This is Hugo Speaking 👨🏻‍💻 [^1], [^bignote], [^2]
     ```
 ```
 
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
+
 ## Math
 
 In markdown, we can use the $\LaTeX$ syntax to represent the math equations. We can use the inline math with `$` and block math with `$$`.
@@ -448,6 +510,12 @@ $$
 $$
 ```
 
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
+
 ## Expandable Sections
 
 We can create the expandable sections in markdown to hide the content.
@@ -492,9 +560,17 @@ Hi.
 </details>
 ```
 
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
+
 ## Chart
 
-We can plot a variety of charts with `mermaid` syntax in markdown. Let's take `flowchart` as an example.
+We can plot a variety of charts with `mermaid` syntax in markdown. Let's take `flowchart` as an example. If you want more examples, you can visit the [Mermaid.js - Tutorial].
+
+[Mermaid.js - Tutorial]: https://mermaid.js.org/ecosystem/tutorials.html
 
 ```mermaid
 ---
@@ -566,4 +642,8 @@ flowchart-elk LR
 ```
 </code></pre>
 
-
+<div align="right">
+    <p>
+        <a href="#table-of-contents-------" target="_blank"><b>☝🏼 [Back to TOP]</b></a> 
+    </p>
+</div>
