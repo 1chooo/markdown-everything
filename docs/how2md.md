@@ -21,6 +21,7 @@ Before [MARKDOWN EVERYTHING], you need to know how to markdown. This document wi
 - [Code](#code)
   - [Inline Code](#inline-code)
   - [Code Block](#code-block)
+- [Quotes](#quotes)
 - [Alert](#alert)
 - [Tables](#tables)
 - [Ignore Markdown](#ignore-markdown)
@@ -243,7 +244,8 @@ def foo() -> str:
 
 ![](./imgs/code-block.png)
 
-<pre><code class=language-markdown>```python
+````markdown
+```python
 def foo() -> str:
     """
     This is a function to return the string 'bar'
@@ -253,7 +255,7 @@ def foo() -> str:
     """
     return 'bar'
 ```
-</code></pre>
+````
 
 <div align="right">
     <p>
@@ -606,9 +608,10 @@ flowchart-elk LR
 ![](./imgs/flowchart.png)
 
 
-<pre><code class=language-markdown>```markdown      <!-- omit in toc -->
+````markdown
+```mermaid
 ---
-title: Multistep Processing of a User Program by Hugo   <!-- omit in toc -->
+title: Multistep Processing of a User Program by Hugo
 ---
 flowchart-elk LR
     A((Source Program)) --> B[Compiler or Assembler]
@@ -638,7 +641,7 @@ flowchart-elk LR
         J[in-memory binary memory image]
     end
 ```
-</code></pre>
+````
 
 <div align="right">
     <p>
