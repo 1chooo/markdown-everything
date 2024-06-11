@@ -28,8 +28,6 @@ Before [MARKDOWN EVERYTHING], you need to know how to markdown. This document wi
 - [Math](#math)
 - [Expandable Sections](#expandable-sections)
 - [Chart](#chart)
-- [\`\`\`markdown](#markdown)
-- [title: Multistep Processing of a User Program by Hugo](#title-multistep-processing-of-a-user-program-by-hugo)
 
 ## Headers
 
@@ -608,9 +606,9 @@ flowchart-elk LR
 ![](./imgs/flowchart.png)
 
 
-<pre><code class=language-markdown>```markdown
+<pre><code class=language-markdown>```markdown      <!-- omit in toc -->
 ---
-title: Multistep Processing of a User Program by Hugo
+title: Multistep Processing of a User Program by Hugo   <!-- omit in toc -->
 ---
 flowchart-elk LR
     A((Source Program)) --> B[Compiler or Assembler]
